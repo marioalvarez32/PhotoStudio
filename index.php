@@ -13,6 +13,7 @@ if (isset($_REQUEST['ref']))
 switch ($ref) {
     case 'login':
         include('view/login.php');
+        //testing
         //include('view/footer.php');
         break;
     case 'register':
