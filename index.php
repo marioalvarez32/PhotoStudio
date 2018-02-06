@@ -39,6 +39,9 @@ switch ($ref) {
         include('view/displayContentSearch.php');
         include('view/footer.php');
         break;
+    case 'weddings':
+        
+        break;
     case 'bodas':
          // display default view
         include('view/displayHeader.php');
