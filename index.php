@@ -45,10 +45,12 @@ switch ($ref) {
     case 'bodas':
          // display default view
         include('view/displayHeader.php');
+
         include('view/displayNav.php');
         include('view/displayContent_Info.php');
         include('view/displayFooter.php');
         include('model/script_simple.php');
+        
         break;
     case 'home':
         // display default view

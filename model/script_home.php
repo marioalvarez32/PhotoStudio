@@ -7,9 +7,7 @@
         //console.log("Header Height: "+ $(".header").height);
         
         win.on('scroll',function(){
-            percentageSeen();
-            
-            
+            percentageSeen();            
         });
         $('img').on('dragstart', function(event) { event.preventDefault(); });
         
