@@ -1,0 +1,29 @@
+@extends('app')
+@extends('app_simple')
+
+
+<style>
+my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+</style>
+@section('content')
+    @php
+        echo $gallery;
+    @endphp
+@stop
+
